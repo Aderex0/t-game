@@ -65,7 +65,7 @@ const Result: FunctionComponent<Props> = ({
         ))}
       </ul>
       <p>
-        {gameMistakes === 0 ? `Unfortunately, you're out of moves` : `Congratulations, you passed the letter sequence!`}
+        {gameMistakes < 0 ? `Unfortunately, you're out of moves` : `Congratulations, you passed the letter sequence!`}
       </p>
       <button className="back-btn" onClick={handleBackBtn}>
         Back
