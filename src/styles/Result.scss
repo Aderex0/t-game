@@ -1,0 +1,27 @@
+@import "../styles/App.scss";
+
+.result-container {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  h1,
+  p {
+    text-align: center;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 5px 0px;
+
+    li {
+      text-align: center;
+    }
+  }
+
+  .back-btn {
+    @include buttonStyle();
+  }
+}
