@@ -41,7 +41,7 @@ const Welcome: FunctionComponent<Props> = ({ handlePlayerName, handleSetStage })
   };
 
   const ruleList: RuleListT = {
-    ruleOne: `If you see a letter that was same 2 steps ago, hit the 'm' button on your keyboard.`,
+    ruleOne: `If you see a letter that was same 2 steps ago, hit the 'm' button on your keyboard or tap the screen on your phone.`,
     ruleTwo: `You are allowed only 2 mistakes.`,
     ruleThree: `After 15 letters the game ends!`,
   };
